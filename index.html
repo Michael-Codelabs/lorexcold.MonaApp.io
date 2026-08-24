@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Privacy Policy for Mona, Pizzeria Lidan AB's Uber Eats Marketplace menu integration."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#9f2f24" />
+    <title>Privacy Policy | Mona</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#policy">Skip to the privacy policy</a>
+
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="#top" aria-label="Mona privacy policy home">
+          <span class="brand-mark" aria-hidden="true">M</span>
+          <span>
+            <strong>Mona</strong>
+            <small>by Pizzeria Lidan AB</small>
+          </span>
+        </a>
+        <span class="suite-label">Eats Marketplace integration</span>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="shell hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow">Privacy Policy</p>
+            <h1>How Mona handles information</h1>
+            <p class="lede">
+              Mona is an internal menu-management application used by Pizzeria
+              Lidan AB to synchronize restaurant and menu information between
+              Lidan's systems and the Uber Eats Marketplace API.
+            </p>
+            <p class="updated">
+              Effective and last updated:
+              <time datetime="2026-08-24">24 August 2026</time>
+            </p>
+          </div>
+
+          <aside class="scope-note" aria-labelledby="scope-title">
+            <p class="scope-kicker">Current scope</p>
+            <h2 id="scope-title">Store and menu data only</h2>
+            <p>
+              Mona currently uses the Eats Marketplace store and menu
+              capabilities. It is not a customer ordering, payment, delivery,
+              advertising, or profiling application.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <div class="shell policy-layout">
+        <nav class="contents" aria-label="Privacy policy sections">
+          <p>On this page</p>
+          <ol>
+            <li><a href="#about">About this policy</a></li>
+            <li><a href="#controller">Who is responsible</a></li>
+            <li><a href="#data">Information we process</a></li>
+            <li><a href="#use">How we use it</a></li>
+            <li><a href="#sharing">Sharing</a></li>
+            <li><a href="#retention">Retention</a></li>
+            <li><a href="#security">Security</a></li>
+            <li><a href="#rights">Your rights</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ol>
+        </nav>
+
+        <article class="policy" id="policy">
+          <section id="about">
+            <h2>1. About this policy</h2>
+            <p>
+              This Privacy Policy applies to Mona and its connection to the Uber
+              Eats Marketplace API. It explains what information Mona processes,
+              why it is processed, how long it is kept, and the choices available
+              to people whose personal data may be involved.
+            </p>
+            <p>
+              Mona is a private operational tool for authorized personnel. It is
+              separate from the public Lidan Pizzeria ordering website and from
+              Uber's own applications and services.
+            </p>
+          </section>
+
+          <section id="controller">
+            <h2>2. Who is responsible</h2>
+            <p>
+              Pizzeria Lidan AB is responsible for the processing described in
+              this policy where it determines the purpose and means of that
+              processing.
+            </p>
+            <address class="identity">
+              <strong>Pizzeria Lidan AB</strong><br />
+              Organization number: 559570-5582<br />
+              Skaragatan 6<br />
+              531 32 Lidköping, Sweden<br />
+              <a href="mailto:contact@lidanpizzeria.se"
+                >contact@lidanpizzeria.se</a
+              ><br />
+              <a href="tel:+4651065924">+46 (0)510-659 24</a>
+            </address>
+          </section>
+
+          <section id="data">
+            <h2>3. Information we process</h2>
+            <p>Mona is designed to process the minimum information needed to manage the integration.</p>
+
+            <div class="data-groups">
+              <div>
+                <h3>Restaurant and store information</h3>
+                <p>
+                  Uber store identifiers, restaurant name, location, store
+                  configuration, supported fulfillment types, and operational
+                  settings made available through the authorized API connection.
+                </p>
+              </div>
+              <div>
+                <h3>Menu and catalog information</h3>
+                <p>
+                  Menus, categories, items, names, descriptions, prices, VAT,
+                  availability, images, modifier groups, and modifier options.
+                  This is primarily business information rather than information
+                  about an individual.
+                </p>
+              </div>
+              <div>
+                <h3>Authentication and security information</h3>
+                <p>
+                  OAuth access tokens, application and store connection status,
+                  authorized-user identifiers where supplied, and security events
+                  needed to protect the integration. Client secrets and access
+                  tokens are treated as confidential credentials.
+                </p>
+              </div>
+              <div>
+                <h3>Operational records</h3>
+                <p>
+                  Request times, action types, entity identifiers, validation
+                  results, approval records, response status codes, errors, and
+                  limited technical logs used for reliability, auditing, and
+                  incident investigation.
+                </p>
+              </div>
+            </div>
+
+            <div class="callout">
+              <h3>What Mona does not currently request</h3>
+              <p>
+                Mona's current menu-sync function is not designed to request or
+                store eater names, eater contact details, delivery addresses,
+                courier information, payment-card details, or order histories.
+                Mona does not currently request Eats Order API scopes. If Mona's
+                scope expands to order or consumer information, this policy will
+                be updated before that processing begins.
+              </p>
+            </div>
+          </section>
+
+          <section id="use">
+            <h2>4. How and why we use information</h2>
+            <p>We use information processed by Mona to:</p>
+            <ul>
+              <li>connect the authorized Lidan restaurant location to Uber Eats;</li>
+              <li>read, compare, validate, and synchronize store and menu data;</li>
+              <li>prepare human-reviewable change plans before production updates;</li>
+              <li>prevent accidental or unauthorized changes;</li>
+              <li>verify completed updates and support recovery;</li>
+              <li>monitor reliability, investigate errors, and maintain security;</li>
+              <li>meet applicable legal, accounting, and contractual obligations.</li>
+            </ul>
+            <p>
+              Where the processing involves personal data, our legal bases may
+              include our legitimate interests in operating and securing our
+              restaurant systems, performance of an agreement, and compliance
+              with legal obligations. We do not use information obtained through
+              the Uber API for targeted advertising or unrelated profiling.
+            </p>
+          </section>
+
+          <section id="sources">
+            <h2>5. Where information comes from</h2>
+            <p>Information processed by Mona may come from:</p>
+            <ul>
+              <li>Pizzeria Lidan AB's own menu and restaurant systems;</li>
+              <li>the Uber Eats Marketplace API under approved scopes;</li>
+              <li>authorized personnel who configure or approve a synchronization;</li>
+              <li>technical systems that generate security and operational logs.</li>
+            </ul>
+          </section>
+
+          <section id="sharing">
+            <h2>6. When information is shared</h2>
+            <p>We may disclose limited information to:</p>
+            <ul>
+              <li>
+                Uber, where necessary to authenticate the integration and manage
+                the connected Uber Eats store and menu;
+              </li>
+              <li>
+                hosting, infrastructure, security, and support providers acting
+                on our instructions and subject to appropriate safeguards;
+              </li>
+              <li>
+                professional advisers, public authorities, or other parties when
+                required by law or necessary to protect legal rights and security.
+              </li>
+            </ul>
+            <p>
+              We do not sell personal data. We do not share Uber API data with
+              data brokers or use it for third-party advertising.
+            </p>
+            <p>
+              Uber separately determines how it processes information within its
+              own services. See the
+              <a href="https://privacy.uber.com/policy" rel="external"
+                >Uber Privacy Notice</a
+              >.
+            </p>
+          </section>
+
+          <section id="retention">
+            <h2>7. How long information is kept</h2>
+            <ul>
+              <li>
+                Access tokens are retained only while needed for the authorized
+                connection and are removed or made unusable when the integration
+                is disconnected or access is revoked.
+              </li>
+              <li>
+                Current menu configuration and necessary recovery snapshots are
+                kept while the integration is active. Superseded recovery
+                snapshots are normally deleted within 90 days.
+              </li>
+              <li>
+                Routine operational and security logs are normally retained for
+                up to 90 days.
+              </li>
+              <li>
+                Records may be kept longer when reasonably required for a security
+                investigation, dispute, audit, or legal obligation.
+              </li>
+            </ul>
+            <p>
+              We delete or anonymize information when it is no longer needed for
+              the purposes described above.
+            </p>
+          </section>
+
+          <section id="security">
+            <h2>8. Security</h2>
+            <p>
+              We use technical and organizational measures appropriate to the
+              sensitivity of the information. These include encrypted network
+              connections, restricted access, least-privilege API scopes, secret
+              separation, validation before changes, audit records, and separation
+              of test and production environments.
+            </p>
+            <p>
+              No system can be guaranteed completely secure. If we identify a
+              security incident involving personal data, we will investigate and
+              notify affected parties and authorities when required by law.
+            </p>
+          </section>
+
+          <section id="transfers">
+            <h2>9. International transfers</h2>
+            <p>
+              Uber and some technology providers may process information outside
+              Sweden or the European Economic Area. Where required, we use legally
+              recognized safeguards such as an adequacy decision or standard
+              contractual clauses.
+            </p>
+          </section>
+
+          <section id="rights">
+            <h2>10. Your data-protection rights</h2>
+            <p>
+              Depending on the circumstances and applicable law, you may have the
+              right to request access, correction, deletion, restriction, or
+              portability of your personal data, and to object to certain
+              processing. You may also withdraw consent where processing relies on
+              consent. Some rights may be limited where we must retain information
+              for security, legal, or contractual reasons.
+            </p>
+            <p>
+              Contact us using the details below to exercise a right. We may need
+              to verify your identity before responding. You also have the right
+              to lodge a complaint with the
+              <a href="https://www.imy.se/en/" rel="external"
+                >Swedish Authority for Privacy Protection (IMY)</a
+              >.
+            </p>
+          </section>
+
+          <section id="cookies">
+            <h2>11. Cookies and this policy page</h2>
+            <p>
+              This static privacy-policy page does not set cookies, use analytics,
+              or store information in your browser. The hosting provider may
+              process basic request information, such as IP address, browser type,
+              and request time, to deliver and secure the page under its own
+              privacy terms.
+            </p>
+          </section>
+
+          <section id="changes">
+            <h2>12. Changes to this policy</h2>
+            <p>
+              We may update this policy when Mona's functionality, API scopes,
+              service providers, or legal requirements change. The latest version
+              will be published at this URL with a revised effective date. A
+              material expansion into order or consumer data will be documented
+              before the new processing begins.
+            </p>
+          </section>
+
+          <section id="contact">
+            <h2>13. Contact us</h2>
+            <p>
+              Questions about Mona or this policy can be sent to
+              <a href="mailto:contact@lidanpizzeria.se"
+                >contact@lidanpizzeria.se</a
+              >. Please use the subject line “Mona privacy request”.
+            </p>
+            <address class="identity compact">
+              Pizzeria Lidan AB<br />
+              Skaragatan 6, 531 32 Lidköping, Sweden
+            </address>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <p>© 2026 Pizzeria Lidan AB</p>
+        <p>Mona · Eats Marketplace menu integration</p>
+      </div>
+    </footer>
+  </body>
+</html>
